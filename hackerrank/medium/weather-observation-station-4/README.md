@@ -1,4 +1,4 @@
-# Weather Observation Station 3
+# Weather Observation Station 4
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -28,12 +28,10 @@ For example, if there are three records in the table with **CITY** values 'New Y
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T18:38:36.945Z  
+**Submitted:** 2026-10-07T18:40:30.287Z  
 
 ```sql
-SELECT DISTINCT CITY FROM STATION
-WHERE ID%2=0
-ORDER BY CITY ASC
+SELECT COUNT(CITY)- COUNT(DISTINCT CITY) FROM STATION
 
 ```
 
