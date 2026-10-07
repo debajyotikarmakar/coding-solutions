@@ -1,4 +1,4 @@
-# Revising the Select Query II
+# Select All
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -24,13 +24,10 @@ The **CITY** table is described as follows:
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T18:26:44.912Z  
+**Submitted:** 2026-10-07T18:30:25.510Z  
 
 ```sql
-SELECT NAME FROM CITY
-WHERE COUNTRYCODE = 'USA'
-AND 
-POPULATION > 120000
+SELECT * FROM CITY
 
 ```
 
