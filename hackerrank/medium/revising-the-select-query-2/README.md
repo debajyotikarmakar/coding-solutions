@@ -1,4 +1,4 @@
-# Revising the Select Query I
+# Revising the Select Query II
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -24,13 +24,13 @@ The **CITY** table is described as follows:
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T18:23:38.001Z  
+**Submitted:** 2026-10-07T18:26:32.127Z  
 
 ```sql
-SELECT * FROM CITY 
+SELECT NAME FROM CITY
 WHERE COUNTRYCODE = 'USA'
 AND 
-POPULATION > 100000
+POPULATION > 120000
 
 ```
 
